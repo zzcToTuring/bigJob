@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body div{
+    margin: 0 auto;
+}
+/*head*/
+div.web-head{
+    width: 1000px;
+    height: 40px;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    position: relative;
+}
+div.web-head .current{
+    height: 45px;
+    color: #eee;
+    font-size: 1.3em;
+    font-family: "楷体";
+    background-color: rgba(200,200,200,0.3);
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+div.web-head ul{
+    width: 600px;
+    margin: 0 auto;
+}
+div.web-head li{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height:40px;
+    margin: 0 5px;
+}
+div.web-head a{
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size:1.1em;
+    font-family: "fantasy";
+    margin: 0 5px;
+}
+div.web-head a:hover{
+    padding: 2px;
+    height: 45px;
+    color: #eee;
+    font-size: 1.3em;
+    font-family: "楷体";
+    background-color: rgba(200,200,200,0.3);
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+div.bdy{
+    width:1000px;
+    height:1700px;
+    background: url("../img/head-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 1700px;
+}
+div.s3:hover,div.s4:hover{
+    box-shadow: 0 0 15px #889988;
+    cursor: pointer;
+}
+.s{
+    width: 1000px;
+    height: 1365px;
+    background-color: whitesmoke;
+    position: relative;
+}
+.s1{
+    font-size: 1.8em;
+    font-weight:bold;
+}
+p{
+    margin: 0px 0px 0px 20px;
+    font-family: 楷体;
+    font-size: 1.2em;
+}
+.s2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.s3{
+    background: url("../img/timg.jpg") no-repeat;
+    width: 300px;
+    height: 368px;
+    z-index: 10;
+    border-radius: 10px;
+    background-size: 300px 368px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.s4{
+    width: 300px;
+    height: 368px;
+    background: url("../img/timgYZQ896IR.jpg") no-repeat;
+    background-size: 300px 368px;
+    position:absolute;/*定位图片*/
+    bottom: 375px;
+    right: 50px;
+    z-index: 10;
+    border-radius: 10px;
+}
+.s5{
+    height: 3px;/*分隔线*/
+    background-color: red;
+    position: relative;
+    top: 60px;
+}
+.s6{
+    position: relative;
+    top: 120px;
+}
+.s7{
+    position: relative;
+    top: 120px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 0px 20px 20px;
+}
+.s8{
+    position: relative;
+    top: 160px;
+}
+.s9{
+    position: relative;
+    top: 140px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 0px 20px 20px;
+}
+
+
+.wei1{  /*第一个框*/
+    background-color: #4C4848;
+    width: 1000px;
+    height: 290px;
+    position: relative;
+
+
+}
+.wei2{  /*第二个框*/
+    background-color: #FBFBF7;
+    width: 1000px;
+    height: 290px;
+    position: relative;
+
+
+}
+/*选择下载  的定位*/
+div.wei1 span{
+    color: white;
+    position: absolute;
+    font-size: 1.1em;
+    top: 45px;left: 375px;
+}
+/*二维码左边的线*/
+.d1{
+    width: 1px;
+    height: 140px;
+    background-color:white;
+    position: absolute;
+    top: 80px;left: 580px;
+}
+/*二维码*/
+.d2{
+    width: 140px;height: 140px;
+    background-image: url("../img/code.png");
+    background-repeat: no-repeat;
+    background-size:140px 140px;
+    position: absolute;
+    top: 80px;left: 600px;
+}
+.wei1 .d3,.wei1 .d4{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    background-repeat: no-repeat;
+    background-size:140px 140px ;
+}
+/*安卓图标与定位*/
+.d3{
+    background-image: url("../img/tan-2.png");
+    right: 600px;
+}
+/*苹果图标与定位*/
+.d4{
+    background: url("../img/tan-3.png") no-repeat;
+    right: 440px;
+}
+
+div.d3:hover,div.d4:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 2px #fff;
+}
+div.rol-1{
+    width: 800px;
+    height: 45px;
+    text-align: center;
+
+}
+div.rol-1 div{
+    display: inline-block;
+    height: 45px;
+}
+/*关于读者 的字定位*/
+.d5{
+    position: relative;
+    bottom: 10px;
+}
+/* 5个图标的定位*/
+.d6{
+    width: 250px;
+    background-image: url("../img/listIcon.png");
+    background-size: 250px 45px;
+    margin-top: 20px;
+}
+/*朋友圈外面的世界 图 的定位*/
+.d7{
+    width: 345px;
+    height: 43px;
+    background-image: url("../img/foot-word.png");
+    background-repeat: no-repeat;
+    background-size: 345px 35px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+}
+/*最下面4个div字的颜色*/
+div.wei3 a{
+    color: #000000;
+}
+div.wei3 a:hover{
+    text-decoration: none;
+}
+/* "|"的 颜色*/
+div.wei3 span{
+    color:red ;
+}
+/*最下面4个div的定位*/
+.wei3{
+
+    width: 355px;
+    margin: 40px auto 20px;
+    /*position: absolute;*/
+    /*top: 100px;left: 300px;*/
+}
+/*最下面3个p的定位*/
+.q1{
+    text-align: center;
+    font-size: 10px;
+}
+.wei4{
+    /*position: absolute;*/
+    margin: 0 auto;
+}
+/*begin--home按钮*/
+#home{
+    position: fixed;
+    right: -10px;
+    bottom: 100px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #aaabbb;
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 2px #000;
+    text-decoration: none;
+    z-index: 100;
+    opacity: 0;
+}
+#home:hover{
+    background-color: #aaa;
+    box-shadow: -2px 2px 16px #000;
+    opacity: 0;
+    transition: all linear 800ms;
+}
+/*end--home按钮*/
