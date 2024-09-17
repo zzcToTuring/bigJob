@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>意见箱</title>
+<link href="css/课设.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="w">
+    <form>
+      <div class="r">
+            <div class="legend">信息登记</div>
+        </div>
+        <div class="r">
+          <div class="group">
+                <label class="label" for="pwd">QQ:</label>
+                <input type="text" id="pwd" placeholder="选填项" class="input-xlarge" required>
+          </div>
+        </div>
+        <div class="r">
+          <div class="group">
+                      <label class="label" for="pwd1">手机号:</label>
+          <input type="text" id="pwd1" placeholder="选填项" class="input-xlarge" required>
+          </div>
+        </div>
+        <div class="r">
+            <div class="group">
+                <label class="label" for="company">所在城市:</label>
+                <select id="company" class="input-xlarge input-select">
+                    <option>江苏省</option>
+                    <option>江西省</option>
+                    <option>浙江省</option>
+                    <option>广东省</option>
+                    <option>福建省</option>
+                </select>
+            </div>
+        </div>
+        <div class="r">
+            <div class="legend">意见人信息</div>
+        </div>
+        <div class="r">
+            <div class="group">
+                <label class="label">性别:</label>
+                <label class="radio">
+                    <input type="radio" name="sex" value="男" checked>男
+                </label>
+                <label class="radio">
+                    <input type="radio" name="sex" value="女">女
+                </label>
+            </div>
+        </div>
+        <div class="r">
+          <div class="group">
+                <label class="label" for="name">姓名:</label>
+                <input type="text" id="name" placeholder="必填项，实名" class="input-xlarge" required>
+            </div>
+        </div>
+
+        <div class="r">
+            <div class="group">
+                <label class="label" for="email">邮箱:</label>
+                <input type="text" id="email" placeholder="必填项" class="input-xlarge" required>
+            </div>
+        </div>
+        <div class="r">
+            <div class="group">
+                <label class="label" for="addr">意见栏:</label>
+                <input type="text" id="addr" placeholder="必填项" class="input-xlarge" required>
+            </div>
+        </div>
+        <div class="r">
+            <div class="group">
+                <label class="label">请选择：</label>
+                <button type="submit" class="btn" id="ok">
+                    确认提交
+                </button>
+                <button type="reset" class="btn">
+                    重 置
+                </button>
+            </div>
+        </div>
+    </form>
+    <a href="首页.html"><input type="button" value="首页" class="ss"></a>
+</div>
+
+</body>
+</html>

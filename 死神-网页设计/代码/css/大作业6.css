@@ -1,0 +1,33 @@
+*{}
+body{
+	background: url(../images/104.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width:1503px;
+    margin: 40px auto;
+    font-family: "trebuchet MS",  "微软雅黑", Arial;
+    font-size: 15px;
+    color: #444;}
+.xx caption{
+	text-align:center;
+	font-size:22px;
+	color:#F90409;}
+.xx{
+	margin:20px auto;
+	border-bottom-color:#CFCFCF;
+	border:2px ridge #F8F8F8;
+	color: rgba(253,253,253,1.00);
+}
+.xx th{
+	background:#DDDDDD;}
+.xx tr{}
+.xx bdody tr:nth-child(even){}
+.xx tbody tr:nth-child(odd){
+	background-color:#F3F3F;}
+.xx tr:hover td{
+	background:#C10408;
+	color:#FFFFFF;}
+.s{
+	width:90px;
+	height:30px;
+	margin:0 706.5px;}

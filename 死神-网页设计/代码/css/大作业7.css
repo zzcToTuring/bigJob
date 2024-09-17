@@ -1,0 +1,34 @@
+*{}
+body{
+	background: url(../images/105.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width:603px;
+	margin:0 auto;
+	font-family:"微软雅黑";}
+.sss{
+	margin:0 auto;}
+.sss caption{
+	font-size:25px;
+	color:#FD0307;}
+a{
+	text-decoration:none;}
+.sss tr{
+	text-align:center;}
+.sss th{
+	background-color:#CECECE;}
+.sss{
+	margin:20px auto;
+	border-bottom-color:#CFCFCF;
+	border:2px ridge #F8F8F8;
+	}
+.sss tr:hover td{
+	background:#06E8D6;
+	color:#FFFFFF;}
+.sss bdody tr:nth-child(even){}
+.sss tbody tr:nth-child(odd){
+	background-color:#F3F3F;}
+.s{
+	width:90px;
+	height:30px;
+	margin:0 230px;}
