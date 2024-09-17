@@ -1,0 +1,79 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;}
+body{
+	font-family:"微软雅黑";
+	width: 1350px;
+	}
+table{
+	margin:80px auto;
+	border-radius:10px;
+	box-shadow:#000000 20px 18px 80px ;
+}
+.td1{
+	width:86px;
+	height:100px;
+	padding-top:0;
+	text-align:center;}
+.td2{
+	display:block;
+	width:350px;
+	text-align:center;
+	padding:42px;
+	}
+.header{
+	width:auto;
+	height:100px;
+	background:#3E3E3E;
+	opacity:0.8;
+	position:relative;}
+.tiaozhuan{
+	color:#000000;
+	width:130px;
+	height:100px;
+	border-radius:50%;
+	line-height:100px;
+	background:#FF0004;}
+a{
+	display:block;
+	font-size:20px;
+	color:#F8FF00;
+	text-decoration:none;
+	width:150px;
+	height:52px;}	
+.header ul{
+	
+	position:absolute;
+	top:58px;
+	left:300px;}
+
+.header ul li {
+	float:left;
+	list-style:none;
+	width:150px;
+	height:52px;
+	line-height:42px;
+	border-bottom:2px solid #000000;
+	background:#FF8600;
+	text-align:center;}
+.header ul li a:hover{
+	background:#F8FF00;
+	color:#FF8600;
+	border-bottom:2px solid #FFFFFF;}
+
+
+
+tbody tr:nth-child(even){ 
+background:#FFFFFF;  }   
+tbody tr:nth-child(odd){
+	background:#E5E5E5;
+}
+tbody tr:hover .td2{
+	background:#6C6C6C;
+	color:#FFFFFF;
+	opacity:0.5;}
+tbody tr:hover .td1{
+	background:#FFFBFB;
+	
+	}
