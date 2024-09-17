@@ -1,0 +1,517 @@
+       *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #efefef;
+        }
+        body>div{
+            margin: 0 auto;
+        }
+        /*music--->>*/
+       div.player{
+           z-index: 100;
+           width: 120px;
+           height: 60px;
+           position: absolute;
+           right: 20px;
+           top: 30px;
+       }
+       div.music-btn{
+           width: 40px;
+           height: 40px;
+           background: url("../img/icon.png") no-repeat;
+           background-position: -179px -194px;
+           position: absolute;
+           bottom: 0;
+           right:10px;
+           border-radius: 50%;
+       }
+       div.head-img{
+           width: 40px;
+           height: 40px;
+           background:url("../img/head-img.jpg")no-repeat;
+           background-size:40px 40px;
+           position: absolute;
+           bottom: 0;
+           left:10px;
+           border-radius: 50%;
+           border: 1px solid #aaa;
+       }
+       div.player p{
+           display: none;
+           position: absolute;
+           top: -5px;
+           left: 10px;
+           font-size:13px;
+           color: #0ff;
+       }
+       div.player p.start{
+           display: block;
+       }
+       div.music-btn:hover,div.head-img:hover{
+           cursor: pointer;
+           box-shadow: 0 0 10px #f00;
+       }
+        /*<<---music*/
+        /*head*/
+       div.web-head{
+           width: 1000px;
+           height: 40px;
+           padding-top: 40px;
+       }
+       div.web-head .current{
+           height: 45px;
+           color: #eee;
+           font-size: 1.3em;
+           font-family: "楷体";
+           background-color: rgba(200,200,200,0.3);
+           border: 1px solid #aaa;
+           border-radius: 10px;
+       }
+       div.web-head ul{
+           width: 600px;
+           margin: 0 auto;
+       }
+       div.web-head li{
+           width: 100px;
+           display: inline-block;
+           text-align: center;
+           line-height:40px;
+           margin: 0 5px;
+       }
+       div.web-head a{
+           height: 40px;
+           text-decoration: none;
+           color: #fff;
+           font-size:1.1em;
+           font-family: "fantasy";
+       }
+       div.web-head a:hover{
+           padding: 2px;
+           height: 45px;
+           color: #eee;
+           font-size: 1.3em;
+           font-family: "楷体";
+           background-color: rgba(200,200,200,0.3);
+           border: 1px solid #aaa;
+           border-radius: 10px;
+       }
+
+        /*模块1开始*/
+        div.bg-1{
+            position: relative;
+            width: 1000px;
+            height: 1500px;
+            margin: 0 auto;
+            background: url("../img/bg2.jpg") ;
+            background-size:1300px 750px;
+            background-attachment: fixed;
+        }
+        div.mould-1{
+            margin: 0 auto;
+            width: 1000px;
+            height: 900px;
+            background: url("../img/bg1.jpg") no-repeat;
+            background-size: 1000px 900px;
+            position: relative;
+        }
+        .mould-1 div.wirter{
+            width: 422px;
+            height: 256px;
+            background: url("../img/bg1.jpg") no-repeat;
+            background-size: 422px 256px;
+            position: absolute;
+            top: 300px;
+            left: 30px;
+        }
+        .mould-1 div.img-1 {
+            width: 182px;
+            margin: 36px auto 26px;
+        }
+        div.btn{
+            width: 370px;
+            height: 45px;
+            margin: 0 auto;
+            background-color: #E3556A;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 10px;
+            box-shadow: 0 2px 2px #000;
+        }
+		div.btn:hover{
+			color: #000;
+			box-shadow: 0 2px 20px #000;
+			transition:1s;
+		}
+        /*弹窗开始*/
+        div.btn .prevDld{
+            background-color:rgba(0,0,0,0.7);
+            z-index: 20;
+            width: 550px;
+            height: 0;
+            position: absolute;
+            top: 230px;
+            box-shadow: 0 0 10px #fff;
+            margin-top: 200px;
+        }
+        div.btn .prevDld span{
+            color: #fff;
+            position: absolute;
+            top: 3%;
+            left: 36%;
+        }
+       div.btn .prevDld img.doucode{
+           width: 120px;
+           height: 120px;
+           padding-left: 10px;
+           border-left: 2px solid #fff;
+           position: absolute;
+           bottom: 20px;
+           right: 50px;
+           border-top-right-radius: 5px;
+           border-bottom-right-radius: 5px;
+        }
+       div.btn .prevDld img.download{
+           width: 120px;
+           height: 120px;
+           position: absolute;
+           bottom: 20px;
+       }
+       .prevDld img.img-and{
+           left: 50px;
+       }
+       .prevDld img.img-ios{
+           left: 200px;
+       }
+        div.btn:hover .prevDld{
+            margin-top: 0;
+            height: 200px;
+            transform: rotate3d(0,1,0,360deg);
+            top: 30px;
+            transition: 2s;
+        }
+        div.btn .prevDld img,
+        div.btn .prevDld span{
+            display: none;
+        }
+        div.btn:hover .prevDld img,
+        div.btn:hover .prevDld span{
+            display: inline-block;
+        }
+        div.btn div.trigon{
+            width: 0;
+            height: 0;
+            border: 0 solid transparent;
+            border-top-color: rgba(0,0,0,0.7);
+            position: absolute;
+            left: 160px;
+            bottom: -40px;
+        }
+        div.btn:hover .prevDld .trigon{
+            border-width: 20px;
+            z-index: 0;
+            transition: 2s;
+        }
+        img:hover{
+            cursor: pointer;
+        }
+       div.prevDld .download:hover{
+           box-shadow: 0 0 10px #fff;
+       }
+        /*弹窗结束*/
+        /*文字图片框开始*/
+        .mould-1 div.secret{
+            width: 410px;
+            height: 310px;
+            background: url("../img/knhyd/qywh3.jpg") no-repeat;
+            background-size: 410px 310px;
+            position: absolute;
+            right: 60px;
+            top: 300px;
+            border:1px solid #aaa;
+            border-radius:5px;
+
+        }
+        .secret:hover{
+            cursor: pointer;
+            box-shadow:0 0 15px #000;
+        }
+        .secret div.character{
+            background-color: rgba(0,0,0,0.3);
+            width: 400px;
+            height: 70px;
+            padding: 30px 20px 0 0;
+            font-size: 30px;
+            color: #ffffff;
+            position: absolute;
+            bottom: 0;
+        }
+        /*文字图片框开始*/
+        /*第一个模块结束*/
+        /*下箭头开始*/
+        a.next{
+            width: 45px;
+            height: 22px;
+            position: absolute;
+            background: url("../img/icon-next.png") no-repeat;
+            background-size: 45px 22px;
+            bottom: 30px;
+            margin-left: 480px;
+            opacity: 0.5;
+        }
+       a.next:hover{
+           opacity: 1;
+       }
+        /*下箭头结束*/
+        /*模块2-6背景开始*/
+        div.bg{
+            width: 1000px;
+            height: 1200px;
+            margin: 0 auto;
+        }
+        div.bg-2{
+            background: url("../img/knhyd/bg3.jpg") no-repeat;
+            background-size: 1277px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-3{
+            background: url("../img/knhyd/bg4.jpg") no-repeat;
+            background-size: 1277px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-4{
+            background: url("../img/knhyd/bg5.jpg") no-repeat;
+            background-size: 1277px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-5{
+            background: url("../img/knhyd/bg6.jpg") no-repeat;
+            background-size: 1277px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-6{
+            background: url("../img/knhyd/bg7.jpg") no-repeat;
+            background-size: 1277px 750px;
+            background-attachment: fixed;
+        }
+        /*模块2-6背景结束*/
+
+        /*begin模块2-7***/
+        div.mould{
+            margin: 0 auto;
+            background-color: #fff;
+            width: 1000px;
+            height: 570px;
+            position: relative;
+        }
+        /*文本开始*/
+        div.txt{
+            width: 400px;
+            height: 220px;
+            text-align: left;
+            position: absolute;
+            left: 50px;
+            top: 140px;
+        }
+        div.txt p.len-txt{
+            text-indent: 2em;
+            height: 100px;
+            font-size: 20px;
+            line-height:30px;
+        }
+        div.txt p.txt-heart,.txt-matter{
+            font-size: 40px;
+        }
+        .txt-matter{
+            color: #ff0000;
+        }
+        /*文本结束*/
+
+        /*右侧图片开始*/
+        div.img{
+            width: 440px;
+            height: 440px;
+            position: absolute;
+            right: 35px;
+            bottom: 65px;
+			border-radius:5px;
+			border:1px solid #aaa;
+
+        }
+       div.img:hover{
+           cursor: pointer;
+           box-shadow:0 0 15px #000;
+       }
+        .mould-2 .img{
+            background: url("../img/content1.png") no-repeat;
+        }
+        .mould-3 .img{
+            background: url("../img/content2.png") no-repeat;
+        }
+        .mould-4 .img{
+            background: url("../img/content6.png") no-repeat;
+        }
+        .mould-5 .img{
+            background: url("../img/content3.png") no-repeat;
+        }
+        .mould-6 .img{
+            background: url("../img/content4.png") no-repeat;
+        }
+        .mould-7 .img{
+            background: url("../img/content5.png") no-repeat;
+        }
+        /*右侧图片结束*/
+        /*end模块2-7***/
+        /*begin--home按钮*/
+        #home{
+            position: fixed;
+            right: -10px;
+            bottom: 100px;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            background-color: #aaabbb;
+            color: #ffffff;
+            line-height: 40px;
+            border-radius: 10px;
+            box-shadow: -2px 2px 2px #000;
+            text-decoration: none;
+            z-index: 100;
+            opacity: 0;
+        }
+       #home:hover{
+           background-color: #aaa;
+           box-shadow: -2px 2px 16px #000;
+           opacity: 0;
+           transition: all linear 800ms;
+        }
+        /*end--home按钮*/
+        /*begin Endpage*/
+       .wei1{  /*第一个框*/
+           background-color: #4C4848;
+           width: 1000px;
+           height: 290px;
+           position: relative;
+
+
+       }
+       .wei2{  /*第二个框*/
+           background-color: #FBFBF7;
+           width: 1000px;
+           height: 290px;
+           position: relative;
+
+
+       }
+       /*选择下载  的定位*/
+       div.wei1 span{
+           color: white;
+           position: absolute;
+           font-size: 1.1em;
+           top: 45px;left: 375px;
+       }
+       /*二维码左边的线*/
+       .d1{
+           width: 1px;
+           height: 140px;
+           background-color:white;
+           position: absolute;
+           top: 80px;left: 580px;
+       }
+       /*二维码*/
+       .d2{
+           width: 140px;height: 140px;
+           background-image: url("../img/code.png");
+           background-repeat: no-repeat;
+           background-size:140px 140px;
+           position: absolute;
+           top: 80px;left: 600px;
+       }
+       .wei1 .d3,.wei1 .d4{
+           width: 140px;
+           height: 140px;
+           border-radius: 10px;
+           position: absolute;
+           top: 80px;
+           background-repeat: no-repeat;
+           background-size:140px 140px ;
+       }
+       /*安卓图标与定位*/
+       .d3{
+           background-image: url("../img/tan-2.png");
+           right: 600px;
+       }
+       /*苹果图标与定位*/
+       .d4{
+           background: url("../img/tan-3.png") no-repeat;
+           right: 440px;
+       }
+       div.d3:hover,div.d4:hover{
+           cursor: pointer;
+           box-shadow: 1px 2px 2px #fff;
+       }
+       div.rol-1{
+           width: 800px;
+           height: 45px;
+           text-align: center;
+			margin: 0 auto;
+       }
+       div.rol-1 div{
+           display: inline-block;
+           height: 45px;
+       }
+       /*关于读者 的字定位*/
+       .d5{
+           position: relative;
+           bottom: 10px;
+       }
+       /* 5个图标的定位*/
+       .d6{
+           width: 250px;
+           background-image: url("../img/listIcon.png");
+           background-size: 250px 45px;
+           margin-top: 20px;
+       }
+       /*朋友圈外面的世界 图 的定位*/
+       .d7{
+           width: 345px;
+           height: 43px;
+           background-image: url("../img/foot-word.png");
+           background-repeat: no-repeat;
+           background-size: 345px 35px;
+           margin-left: 10px;
+           position: relative;
+           top: 10px;
+       }
+       /*最下面4个div字的颜色*/
+       div.wei3 a{
+           color: #000000;
+       }
+       div.wei3 a:hover{
+           text-decoration: none;
+       }
+       /* "|"的 颜色*/
+       div.wei3 span{
+           color:red ;
+       }
+       /*最下面4个div的定位*/
+       .wei3{
+
+           width: 355px;
+           margin: 40px auto 20px;
+           /*position: absolute;*/
+           /*top: 100px;left: 300px;*/
+       }
+       /*最下面3个p的定位*/
+       .q1{
+           text-align: center;
+           font-size: 10px;
+       }
+       .wei4{
+           /*position: absolute;*/
+           margin: 0 auto;
+       }
+        /*end Endpage*/

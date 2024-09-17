@@ -1,0 +1,58 @@
+#main{
+	width: 1070px;
+	height: 600px;
+	background:#000281;
+	position: relative;
+	color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+	color:#FF0004;
+	font-size: 60px;
+}
+.last{
+	position: absolute;
+	left: 30px;
+	top: -30px;
+}
+h3{
+	height: 40px;
+	width: 250px;
+	display: block;
+	position:absolute;
+	top: 10px;
+	left: 250px;
+	color: #000000;
+	background:#0054FF;
+	line-height: 40px;}
+video{
+	position: absolute;
+	top: 70px;
+	
+}
+.s1{
+	display: block;
+	position: absolute;
+	top:60px;
+	height: 100px;
+	line-height: 30px;
+	left: 800px;
+	width: 250px;
+}
+.t1{
+	position: absolute;
+	top:180px;
+	height: 100px;
+	line-height: 30px;
+	left: 800px;
+	width: 250px;
+	padding: 15px 2px;
+	border-top: #000DFF 2px solid;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background:#5C5C5C;
+	font-family:"Microsoft Yahei";
+}
+embed{
+	display: none;
+}
+.f1{
+	width:153px;
+	height:50px;
+	float:left;
+	background:#FF0000;
+	border:1px solid #000000;
+	border-radius:5em;}
+.f1 h3{
+	text-align:center;
+	height:50px;
+	line-height:50px;}	
+a{
+	color:#000000;
+	width:100px;
+	height:35px;
+	display:inline-block;
+	text-decoration: none; 
+	}	
+.shou{
+	background:#DDEBB3;
+	width:1200px;
+	height:35px;
+	padding:0 100px;
+	}
+.shou ul{
+	width:px;}
+ .shou ul .j{
+	width:200px;
+	font-size:smaller;
+	float:left;
+	text-align:center;/*居中对齐*/
+	height:35px;
+	line-height:35px;
+	}
+.shou ul .h1 {
+    background:#D3CCCC;
+   }	
+.shou ul li {
+	background:#DDEBB3;
+	width:100px;
+	height:35px;
+	float:left;
+	list-style:none;
+	line-height:35px;
+	font-weight:bold;
+	text-align:center;/*居中对齐*/
+	}
+.shou ul li a{
+	}
+.shou ul li a:hover{
+	color:#FF0004;
+	background:#D3CCCC;}
+	
+
+.we {
+	width:1080px;
+	height:810px;
+	background:#369F32;
+	margin:0 155px;
+	}
+span{
+	display:inline-block;
+	float:left;
+	width:180px;
+	height:35px;
+	background:#D3CCCC;
+	font-size:14px;
+	text-align:center;
+	color:#170405;
+	line-height:35px;
+	}
+
+span:hover{
+	background:#AAA5A5;
+	color:#FC0105;}
+	
+.h{
+	width:1080px;
+	height:810px;
+	line-height:35px;
+	background:url(../images5/1.jpg);}
+.r:nth-child(2):hover ~ .h{
+	background-image:url(../images5/2.jpg);
+	transition-duration:1s;
+	
+	}
+.r:nth-child(3):hover ~ .h{
+	background-image:url(../images5/3.jpg);
+	transition-duration:1s;
+	}
+.r:nth-child(4):hover ~ .h{
+	background-image:url(../images5/4.jpg);
+	transition-duration:1s;
+	}
+.r:nth-child(5):hover ~ .h{
+	background-image:url(../images5/5.jpg);
+	transition-duration:1s;
+	}
+.r:nth-child(6):hover ~ .h{
+	background-image:url(../images5/6.jpg);
+	transition-duration:1s;
+	}
+
+
+
+
+
+
+
+
