@@ -1,0 +1,292 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}/*默认设置*/
+body{
+	background:#E9E9E9;
+	font-size: 18px;/*字体大小的设置*/
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";/*字体的设置，随便一设置*/
+}
+.web-head{
+	background:url("../images/content6.png");
+	height: 190px;
+	width: 1200px;
+	margin: 30px auto;/*左右auto，目的窗口中水平居中*/
+	overflow: auto;/*里面的元素都浮动，为了自适应内部元素的高度*/
+	
+}
+.web-head ul li{
+	padding: 40px 16px;
+	list-style: none;/**去除旁边的小点点*/
+	text-align: center;/*li中文本水平居中*/
+	float: left;/*能使其在上面的最主要原因，li每项默认都独占一行，左漂将水平摆放*/
+}
+.web-head_li_1{
+	padding: 30px  10px;
+	width: 200px;/*之间的间距*/
+	height: 50px;
+	list-style: none;
+	text-align: center;
+	font-weight: bold;/*加粗*/
+}
+.web-head_li_1 ul{
+	display: none;/*隐藏第二级的图标*/
+}
+.web-head ul{
+	margin: 0 auto;
+	
+}
+.web-head_li_1:hover a.web-head{
+	color: #F30004;/*鼠标移动之后的颜色*/
+}
+.web-head a{
+	text-decoration: none;/*去除下划线*/
+	color: #000000;
+	width: 100px;
+}
+
+.web-head_li_2{
+	color: #FFFFFF;
+	list-style: none;
+}
+
+.web-head_li_1:hover ul{
+	display: block;/*鼠标滑过的时候展示*/
+}
+
+/*******************网页的最顶部设计完成*********************** */
+  /*模块1开始*/
+        div.bg-1{
+            position: relative;
+            width: 1000px;
+            height: 200px;
+            margin: 0 auto;
+           background: url("../images/bg2.jpg");
+            background-size:1300px 750px;
+            background-attachment: fixed;
+        }
+        div.mould-1{
+            margin: 0 auto;
+            width: 1000px;
+            height: 900px;
+            background:  no-repeat;/*未填充图片*/
+            background-size: 1000px 900px;
+            position: relative;
+        }
+       
+        .mould-1 div.img-1 {
+            width: 182px;
+            margin: 36px auto 26px;
+        }
+        div.btn{
+            width: 370px;
+            height: 45px;
+            margin: 0 auto;
+            background-color: #E3556A;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 10px;
+            box-shadow: 0 2px 2px #000;
+        }
+		div.btn:hover{
+			color: #000;
+			box-shadow: 0 2px 20px #000;
+			transition:1s;
+		}/*右侧的图片*/
+        /*第一个模块结束*/
+        /*模块2-6背景开始*/
+        div.bg{
+            width: 1000px;
+            height: 600px;
+            margin: 0 auto;
+        }
+     
+    /*板块的宽度及其长度的设计*/
+        
+        /*模块2-6背景结束*/
+
+        /*begin模块2-7***/
+        div.mould{
+            margin: 0 auto;
+            background-color: #fff;
+            width: 1000px;
+            height: 570px;
+            position: relative;
+        }
+        /*文本开始*/
+        div.txt{
+            width: 400px;
+            height: 220px;
+            text-align: left;
+            position: absolute;
+            left: 50px;
+            top: 140px;
+        }
+        div.txt p.len-txt{
+            text-indent: 2em;
+            height: 100px;
+            font-size: 20px;
+            line-height:30px;
+        }/**文本字体的相关设置*/
+        div.txt p.txt-heart,.txt-matter{
+            font-size: 40px;
+        }
+        /*右侧图片开始*/
+        div.img{
+    width: 500px;
+    height: 440px;
+    position: absolute;
+    right: 36px;
+    bottom: 21px;
+    border-radius: 5px;
+    border: 1px solid #aaa;/*设置右边的图片*/
+
+        }
+       div.img:hover{
+           cursor: pointer;
+           box-shadow:0 0 15px #000;
+       }
+        .mould-2 .img{
+			background: url("../images/图片-2.jpg")no-repeat;
+            
+        }
+        .mould-3 .img{
+            background: url("../images/图片1.JPG")no-repeat;
+        }
+        .mould-4 .img{
+            background: url("../images/图片4.jpg")no-repeat;
+        }
+        .mould-5 .img{
+            background: url("../images/图片5.jpg")no-repeat;
+        }
+        .mould-6 .img{
+            background: url("../images/图片6.jpg")no-repeat;
+        }
+        .mould-7 .img{
+            background: url("../images/图片3.jpg")no-repeat;
+        }
+        /*右侧图片结束*/
+       
+        /*begin--home按钮*/
+        #home{
+            position: fixed;
+            right: -10px;
+            bottom: 100px;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            background-color: #aaabbb;
+            color: #ffffff;
+            line-height: 40px;
+            border-radius: 10px;
+            box-shadow: -2px 2px 2px #000;
+            text-decoration: none;
+            z-index: 100;
+            opacity: 0;
+        }
+       #home:hover{
+           background-color: #aaa;
+           box-shadow: -2px 2px 16px #000;
+           opacity: 0;
+           transition: all linear 800ms;
+        }
+        /*end--home按钮*/
+/********************底部设置************************/
+.foot{
+	margin-top: 20px;
+	text-align: center;
+	height: 30px;
+    
+}
+.foot a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: auto;
+}
+.foot a:hover{
+	color: #FF0004;
+	
+}
+.foot1{
+	margin-top: 20px;
+	font-size: 15px;
+	height: 70px;
+	text-align: center;
+}
+        
+/**************************底部设置完成****************************/
+/*********************第二次修改的的CSS的内容**************************/  
+        /*文字图片框开始*/
+        div.bg-2{
+           background: url("../images/bg2.jpg")no-repeat;
+            background-size: 1400px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-3{
+            background: url("../images/bg7.jpg") no-repeat;
+            background-size: 1400px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-4{
+			background: url("../images/bg3.jpg") no-repeat;
+           
+            background-size: 1400px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-5{
+             background: url("../images/bg5.jpg") no-repeat;
+            background-size: 1400px 750px;
+            background-attachment: fixed;
+        }
+        div.bg-6{
+            background: url("../images/11-08-04-20140728045759196.jpg.270.jpg")no-repeat;
+            background-size: 1400px 750px;
+            background-attachment: fixed;
+        }
+       a.next:hover{
+           opacity: 1;
+       }
+        /*下箭头结束*/
+        /*模块2-6背景开始*/
+        div.bg{
+            width: 1000px;
+            height: 1200px;
+            margin: 0 auto;
+        }
+        /*模块2-6背景结束*/
+
+        /*begin模块2-7***/
+        div.mould{
+            margin: 0 auto;
+            background-color: #fff;
+            width: 1000px;
+            height: 570px;
+            position: relative;
+        }
+        /*文本开始*/
+        div.txt{
+            width: 400px;
+            height: 220px;
+            text-align: left;
+            position: absolute;
+            left: 50px;
+            top: 140px;
+        }
+        div.txt p.len-txt{
+            text-indent: 2em;
+            height: 100px;
+            font-size: 20px;
+            line-height:30px;
+        }
+        div.txt p.txt-heart,.txt-matter{
+            font-size: 40px;
+        }
+        .txt-matter{
+            color: #ff0000;
+        }
+        

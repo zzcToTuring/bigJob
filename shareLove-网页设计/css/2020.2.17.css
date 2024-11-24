@@ -1,0 +1,136 @@
+﻿/* CSS Document */
+/****************************网页设计顶部title设置*****************************************/
+
+*{
+	padding: 0;
+	margin: 0;
+}/*默认设置*/
+body{
+	background:#E9E9E9;
+	font-size: 18px;/*字体大小的设置*/
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";/*字体的设置，随便一设置*/
+}
+.web-head{
+	background:url("../images/content6.png");
+	height: 190px;
+	width: 1200px;
+	margin: 30px auto;/*左右auto，目的窗口中水平居中*/
+	overflow: auto;/*里面的元素都浮动，为了自适应内部元素的高度*/
+	
+}
+.web-head ul li{
+	padding: 40px 16px;
+	list-style: none;/**去除旁边的小点点*/
+	text-align: center;/*li中文本水平居中*/
+	float: left;/*能使其在上面的最主要原因，li每项默认都独占一行，左漂将水平摆放*/
+}
+.web-head_li_1{
+	padding: 30px  10px;
+	width: 200px;/*之间的间距*/
+	height: 50px;
+	list-style: none;
+	text-align: center;
+	font-weight: bold;/*加粗*/
+}
+.web-head_li_1 ul{
+	display: none;/*隐藏第二级的图标*/
+}
+.web-head ul{
+	margin: 0 auto;
+	
+}
+.web-head_li_1:hover a.web-head{
+	color: #F30004;/*鼠标移动之后的颜色*/
+}
+.web-head a{
+	text-decoration: none;/*去除下划线*/
+	color: #000000;
+	width: 100px;
+}
+
+.web-head_li_2{
+	color: #FFFFFF;
+	list-style: none;
+}
+
+.web-head_li_1:hover ul{
+	display: block;/*鼠标滑过的时候展示*/
+}
+/****************************网页的最顶部设计完成***************************/
+/******************************Home键设置**********************************/
+ #home{
+            position: fixed;
+            right: -10px;
+            bottom: 100px;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            background-color: #aaabbb;
+            color: #ffffff;
+            line-height: 40px;
+            border-radius: 10px;
+            box-shadow: -2px 2px 2px #000;
+            text-decoration: none;
+            z-index: 100;
+            opacity: 0;
+        }
+       #home:hover{
+           background-color: #aaa;
+           box-shadow: -2px 2px 16px #000;
+           opacity: 0;
+           transition: all linear 800ms;
+        }
+/*****************************Home键设置完成************************************/
+/****************************网页设计最底部开始**********************************/
+.foot{
+	margin-top: 20px;
+	text-align: center;
+	height: 30px;
+    
+}
+.foot a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: auto;
+}
+.foot a:hover{
+	color: #FF0004;
+	
+}
+.foot1{
+	margin-top: 20px;
+	font-size: 15px;
+	height: 70px;
+	text-align: center;
+}
+ 
+/*********************************网页设计底部完成********************************/
+/**********************************中间的设置*************************************/
+.center{
+	width: 1000px;
+	
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.bordered{/*表格的设置*/
+	border-radius: 10px;
+	border-collapse: separate;
+	color: #A58FB8;
+}
+.picture{/*中间插入的图片的设置*/
+	margin: 0 auto;
+	cursor:move;	
+	border-radius: 15px;
+
+}
+.picture:hover{
+	box-shadow:0 0 25px #000;/*产生一个框框*/
+}
+.table{
+	text-align: center;
+	line-height: 200%; 
+	background: url("../images/bg7.jpg") no-repeat;
+	color: #000000;
+}
