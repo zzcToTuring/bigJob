@@ -1,0 +1,134 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+span a{
+	display:block;
+	text-decoration: none;
+	color:#F8F8F8;
+	width:100px;
+	hight:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #F10A0E;
+	border-radius: 10px;
+}
+#container{
+	margin:30px auto;
+	height: 1000px;
+	width: 1000px;
+	font-family:"microsoft yahei";
+}
+.header{
+	width: 880px;
+	height: 400px;
+	margin: 0 auto;
+	background:url(../images/u=3884555100,2146447613&fm=26&gp=0.jpg) 0/100% 100% no-repeat;
+	border: 1px solid #000000;	
+}
+.content h2{
+	margin: 20px;
+	margin-left:55px;
+}
+.box1{
+	background:url(../images/u=1320798067,3716554874&fm=173&app=25&f=JPEG.jpg) 50px 20px no-repeat;
+	height:450px;
+	padding: 50px 0 0 50px;
+}
+.box1 h3{
+	margin-left:750px;
+	font-size:20px;
+	
+}
+.box1 p{
+	margin:20px;
+	margin-left:670px;
+	line-height: 28px;
+	font-size: 20px;
+	text-indent: 2em;
+}
+.box2{
+	background:url(../images/timg.jpg) 420px 80px no-repeat;
+	height:400px;
+	padding:50px 0 0 50px;
+}
+.box2 h3{
+	margin:20px;
+	margin-left: 100px;
+}
+.box2 p{
+	margin:25px;
+	margin-right:620px;
+	line-height: 28px;
+	font-size: 20px;
+	text-indent: 2em;
+}
+.box3{
+	background:url(../images/100017424344_14483515405605.png) 30px 30px no-repeat;
+	height:450px;
+	padding:50px 0 0 50px;
+	margin-top:50px;
+}
+.box3 h3{
+	margin-left:750px
+}
+.box3 p{
+	margin:10px;
+	margin-left:640px;
+	font-size: 20px;
+	line-height: 28px;
+	text-indent: 2em;
+}
+.box4{
+	background:url(../images/dukadi.jpg) 480px 30px no-repeat;
+	height: 450px;
+	padding: 50px 0 0 50px;
+	margin-top: 25px;
+	text-indent: 2em;
+}
+.box4 h3{
+	margin:10px;
+	margin-left: 85px;
+}
+.box4 p{
+	margin-right:580px;
+	font-size: 20px;
+	line-height: 36px;
+	text-indent: 2em;
+}
+.box5{
+	background: url(../images/bentian.jpg) left 40px no-repeat;
+	height: 450px;
+	margin-top: 25px;
+	padding:50px 0 0 50px;
+}
+.box5 h3{
+	margin:20px;
+	margin-left: 720px;
+}
+.box5 p{
+	margin-left:460px;
+	font-size: 20px;
+	line-height: 36px;
+	text-indent: 2em;
+}
+#footer {
+	height:40px;
+	line-height: 40px;
+	width: 600px;
+	margin-top: 10px;
+}
+#footer ul{
+	height:25px;
+	width:400px;
+	margin: 10px;
+	margin-left:350px;
+}
+#footer ul li{
+	list-style:none;
+	height:25px;
+	text-align: center;
+}
+
+
+

@@ -1,0 +1,131 @@
+/* CSS Document */
+*{
+	padding:0px;
+	margin: 0px;
+}
+span a{
+	display:block;
+	text-decoration: none;
+	color:#F8F8F8;
+	width:100px;
+	hight:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #F10A0E;
+	border-radius: 10px;
+}
+.container{
+	height:1200px;
+	width:1000px;
+	margin: 30px auto;
+}
+.header{
+	height:400px;
+	width:900px;
+	margin: 0 auto;
+	background:url(../images/falali.jpg) 0/100% 100% no-repeat;
+	border:1px solid #000000;
+}
+hr{
+	margin:10px;
+	margin-left: 45px;
+	height: 10px;
+	width:905px;
+	background: #EB1014;
+	
+}
+.box1{
+	width:900px;
+	height: 380px;
+	margin: 0 auto;
+	background: url(../images/bujiadiweilong.aa.jpg) left top no-repeat;
+}
+.lbox1{
+	margin-left:560px;
+	margin-top: 20px;
+}
+.box1 p {
+	margin-left:530px;
+	margin-top: 15px;
+	font-size: 20px;
+	text-indent: 2em;
+	line-height: 28px;
+}
+.box2{
+	width:900px;
+	height:420px;
+	margin:0 auto;
+	background:url(../images/falali..aa.jpg) left top  no-repeat;
+}
+.lbox2{
+	margin-left: 560px;
+	margin-top:15px;
+}
+.box2 p{
+	margin-left: 520px;
+	margin-top: 10px;
+	font-size: 19px;
+	text-indent: 2em;
+	line-height: 24px;
+}
+.box3{
+	width:900px;
+	height:380px;
+	margin:0 auto;
+	background:url(../images/u=466597197,3551130780&fm=26&gp=0.jpg) left top no-repeat;
+}
+.lbox3{
+	margin-left:560px;
+	margin-top: 15px;
+}
+.box3 p{
+	margin-left: 520px;
+	margin-top: 15px;
+	font-size: 19px;
+	text-indent: 2em;
+	line-height: 24px;
+}
+.box4{
+   width:900px;
+	height:420px;
+	margin:0 auto;
+	background: url(../images/maikailunp1.jpg) left top no-repeat;
+}
+.lbox4{
+	margin-left:560px;
+	margin-top:15px;
+}
+.box4 p{
+	margin-left:520px;
+	margin-top:15px;
+	font-size: 20px;
+	text-indent: 2em;
+	line-height: 23px;
+}
+.box5{
+	width:900px;
+	height:400px;
+	margin:0 auto;
+	background: url(../images/sailings7.jpg) left top no-repeat;
+}
+.lbox5{
+	margin-left:560px;
+	margin-top:15px;
+}
+.box5 p{
+	margin-left:520px;
+	margin-top:20px;
+	font-size: 20px;
+	text-indent: 2em;
+	line-height: 26px;
+}
+.footer{
+	width:400px;
+	height:60px;
+	line-height: 60px;
+	margin:10px auto;
+}
+.footer ul{
+	height:40px;
+	width:400px;
+}

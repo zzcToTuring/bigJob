@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+span a{
+	display:block;
+	color:#F5F3F3;
+	background:#E91518;
+	width:100px;
+	height:30px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 10px;
+}
+.container{
+	width:1100px;
+	height:800px;
+	margin:30px auto;
+}
+.header{
+	width:900px;
+	height:460px;
+	background:url(../images/fachengshi.jpg) 0/100% 100% no-repeat;
+	margin:0 auto;
+	border:1px solid #000000;
+}
+hr{
+	width:900px;
+	height:10px;
+	margin:10px;
+	margin-left: 100px;
+	background:#DB1114;
+}
+.content1{
+	width:900px;
+	height:520px;
+	margin:0 auto;
+}
+.content1 img{
+	float:right;
+	border:1px solid #DDDBDB;
+	margin-bottom:5px;
+}
+.content1 img:hover{
+	border:1px solid #E41A1D;
+}
+.content1 p{
+	margin:15px;
+	margin-right:5px;
+	font-size:20px;
+	text-indent: 2em;
+	line-height:30px;
+}
+.content1 span{
+	font-size: 18px;
+	background-color: #63B4E1; 
+    margin-left:3px;
+	padding:5px;
+	border: #1402FF 1px solid;
+	border-radius: 5px;
+}
+.content1 span:hover{
+	background:#DC1B1E;
+}
+.tab{
+	margin:15px auto;
+	border:3px solid  #F3ECED;
+}
+.content1 h2{
+	font-size: 25px;
+	margin: 20px;
+}

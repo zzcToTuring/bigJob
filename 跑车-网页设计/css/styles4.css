@@ -1,0 +1,158 @@
+/* CSS Document */
+*{
+	padding:0px;
+	margin: 0px;
+}
+span a{
+	display:block;
+	text-decoration: none;
+	color:#F8F8F8;
+	width:100px;
+	hight:30px;
+	line-height: 30px;
+	text-align: center;
+	background: #F10A0E;
+	border-radius: 10px;
+}
+.container{
+	width:1100px;
+	height:1200px;
+	margin:30px auto;
+}
+.header{
+	width:900px;
+	height:500px;
+	margin:0 auto;
+	background: url(../images/maibahehe.jpg) 0/100% 100%  no-repeat;
+	border: 1px solid #000000;
+}
+hr{
+	margin:10px;
+	height:10px;
+	width:900px;
+	margin-left:100px;
+	background: #D91316;
+}
+.content h1{
+	margin:15px;
+	margin-left: 100px;
+}
+.box1{
+	width:900px;
+	height:420px;
+	margin:0 auto;
+}
+.box1 img{
+	float: left;
+	border: 1px solid  #F3ECED;
+	margin:0 5px 5px 0;
+}
+.box1 img:hover{
+	border:1px solid #E5181B;
+}
+.box1 h2{
+	margin-left:300px;
+}
+.box1 p{
+	line-height: 30px;
+	text-indent: 2em;
+	font-size: 20px;
+}
+.box1 span{
+	font-size: 16px;
+	background-color: #63B4E1; 
+    margin-left:3px;
+	padding:5px;
+	border: #1402FF 1px solid;
+	border-radius: 5px;
+}
+.box1 span:hover{
+	background:#C72023;
+}
+.lbox1{
+	margin:20px auto;
+	border:1px solid #F0E9E9;
+}
+.box2{
+	width:900px;
+	height:420px;
+	margin:15px auto;
+}
+.box2 img{
+	float: left;
+	border:1px solid #FBF8F8;
+	margin:0 5px 5px 0;
+}
+.box2 img:hover{
+	border:1px solid #D51B1E;
+}
+.box2 h2{
+	margin-left: 300px;
+}
+.box2 p{
+	line-height: 30px;
+	text-indent: 2em;
+	font-size: 20px;
+}
+.box2 span{
+	font-size: 16px;
+	background-color: #63B4E1; 
+    margin-left:3px;
+	padding:5px;
+	border: #1402FF 1px solid;
+	border-radius: 5px;
+}
+.box2 span:hover{
+	background:#C72023;
+}
+.lbox2{
+	margin:20px auto;
+	border:1px solid #F5EEEE;
+}
+.box3{
+	width:900px;
+	height:430px;
+	margin:20px auto;
+}
+.box3 img{
+	float:left;
+	border:1px solid #FCF0F1;
+	margin:0 5px 5px 0;
+}
+.box3 img:hover{
+	border:1px solid #E9282C;
+}
+.box3 h2{
+	margin-left: 300px;
+}
+.box3 p{
+	line-height: 30px;
+	text-indent: 2em;
+	font-size: 20px;
+}
+.box3 span{
+	font-size: 16px;
+	background-color:#17D9D6;
+	margin-left:3px;
+	padding:5px;
+	border:1px solid #2730D4;
+	border-radius: 5px;
+}
+.box3 span:hover{
+	background: #E42326;
+}
+.lbox3{
+	margin:20px auto;
+	border:1px solid #FBF9F9;
+}
+.footer{
+	width:900px;
+	margin:15px auto;
+	height:40px;
+	line-height: 40px;
+}
+.footer ul{
+	width:600px;
+	height:30px;
+	margin:10px auto;
+}
